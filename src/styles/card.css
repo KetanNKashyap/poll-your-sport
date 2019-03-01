@@ -1,0 +1,90 @@
+.card {
+    background-color: transparent;
+    width: 500px;
+    height: 300px;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    display: inline-block;
+    padding: 50px 50px 50px 10px;
+    margin-bottom: 16px;
+  }
+  
+  .card-inner {
+    position: absolute;
+    width: 98%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #292826;
+    color: #fff;
+    display: table;
+  }
+.card-inner h1, .card-inner h2, .card-inner h3 { color: #fedd03; }
+
+  .chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    color: #000;
+    cursor: pointer;
+    margin: 0 5px 10px;
+  }
+    .chip:hover { background: #f8d241; color: #000; }
+  .vote-section{
+    padding: 50px 0px 0px 50px;
+    text-align: left; 
+    transition: ease 0.3s all;
+  }
+
+  .custom-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  /*.button-cancel {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+  }
+  
+  .button-cancel:hover {
+    background-color: #f44336;
+    color: white;
+  }
+*/
+  .button-submit, .button-cancel {
+    background-color: #f8d241; 
+    color: black; 
+    border:none;
+    border-radius: 4px;
+  }
+  
+  .button-submit:hover,  .button-cancel:hover {
+    background-color: #eee;
+    color: #000;
+  }
+  .refresh {
+    background-color: #654321; 
+    color: #fff; 
+    border:none;
+    border-radius: 4px;
+    padding: 10px 14px;
+  }
+  
+  .refresh:hover {
+    background-color: #666;
+    color: #000;
+  }
